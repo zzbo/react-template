@@ -9,7 +9,6 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "eslint": "^6.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -28,6 +27,7 @@
     "@typescript-eslint/parser": "^4.0.1",
     "babel-eslint": "^10.1.0",
     "customize-cra": "^1.0.0",
+    "eslint": "^6.8.0",
     "eslint-config-imweb": "^0.2.19",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.22.0",
