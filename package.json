@@ -9,6 +9,11 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "eslint": "^6.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -16,15 +21,20 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "babel-eslint": "^10.1.0",
+    "customize-cra": "^1.0.0",
+    "eslint-config-imweb": "^0.2.19",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.2",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "node-sass": "npm:dart-sass@^1.25.0",
+    "react-app-rewired": "^2.1.6",
     "react-scripts": "3.4.3",
     "typescript": "^4.0.3"
-  },
-  "devDependencies": {
-    "customize-cra": "^1.0.0",
-    "node-sass": "npm:dart-sass@^1.25.0",
-    "react-app-rewired": "^2.1.6"
   },
   "eslintConfig": {
     "extends": "react-app"
