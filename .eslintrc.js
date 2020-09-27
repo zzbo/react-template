@@ -1,4 +1,9 @@
 module.exports = {
+  root: true,
+  env: {
+    es6: true,
+    node: true
+  },
   extends: 'eslint-config-imweb',
   plugins: ['react-hooks'],
   parser: '@typescript-eslint/parser',
