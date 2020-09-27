@@ -5,13 +5,15 @@ module.exports = {
     node: true
   },
   extends: 'eslint-config-imweb',
-  plugins: ['react-hooks'],
+  plugins: ['@typescript-eslint', 'react', 'react-hooks'],
   parser: '@typescript-eslint/parser',
 
   parserOptions: {
     project: './tsconfig.json',
   },
   rules: {
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
   }
