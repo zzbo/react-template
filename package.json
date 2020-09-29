@@ -9,8 +9,13 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@tencent/eslint-config-imweb": "^1.0.4",
+    "axios": "^0.20.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.10.5",
@@ -23,13 +28,14 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
-    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "@types/react-redux": "^7.1.9",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.2.0",
     "babel-eslint": "^10.1.0",
     "customize-cra": "^1.0.0",
     "customize-cra-eslint": "^0.1.2",
     "eslint": "^6.8.0",
-    "eslint-config-imweb": "^0.2.19",
+    "eslint-config-airbnb-typescript": "^11.0.0",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",

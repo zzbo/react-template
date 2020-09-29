@@ -1,8 +1,6 @@
 import React from 'react';
 import './index.scss';
 
-const Header = () => {
-  return <div className="header">Header</div>;
-};
+const Header = (): JSX.Element => <div className="header">Header</div>;
 
 export default Header;
