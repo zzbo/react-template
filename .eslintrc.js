@@ -8,6 +8,7 @@ module.exports = {
     "plugin:import/typescript",
   ],
   rules: {
+    "@typescript-eslint/type-annotation-spacing": "error",
     'max-len': [
       'error',
       {
