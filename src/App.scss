@@ -23,3 +23,16 @@ button {
   outline: none;
   background: none;
 }
+
+.main {
+  line-height: 100px;
+
+  width: 800px;
+  height: 100px;
+  margin: 10px auto;
+
+  text-align: center;
+
+  color: rgb(91, 199, 44);
+  border: 1px dashed rgb(91, 199, 44);
+}
