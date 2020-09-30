@@ -1,7 +1,7 @@
 import axios, { AxiosRequestConfig } from 'axios';
 
 interface IResponse<T> {
-  retcode: number;
+  code: number;
   msg?: string;
   result: T;
 }
@@ -18,7 +18,7 @@ export function request<T>(
   return axios(config).then((response) => {
     const res: IResponse<T> = response.data;
 
-    if (res.retcode === 0) {
+    if (res.code === 0) {
       return res.result;
     }
 

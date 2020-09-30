@@ -17,8 +17,10 @@ interface Window {
 }
 
 declare interface BaseAction<T = any> {
-  data: T;
+  data?: T;
   type: string;
 }
+
+declare type PromiseAction<T = any> = Promise<void | { type: string; data?: T; }>
 
 declare const REACT_APP_ENV: 'test' | 'dev' | 'pre' | false;

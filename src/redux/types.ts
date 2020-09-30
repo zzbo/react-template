@@ -1,14 +1,8 @@
 export interface UserInfo {
-  userName?: string;
+  userName: string;
 }
 
-export interface SystemData {
+export interface SysData {
   isLogin: boolean;
-  userInfo: UserInfo;
+  userInfo?: UserInfo;
 }
-
-// export interface SystemActions {
-//   getUserInfo(): void;
-// }
-
-// export type SystemProps = SystemData & SystemActions;

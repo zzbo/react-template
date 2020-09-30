@@ -1,14 +1,13 @@
 import { combineReducers } from 'redux';
 import { useSelector, TypedUseSelectorHook } from 'react-redux';
-import { SystemData } from './types';
+import { SysData } from './types';
 import * as actions from './action_type';
 
-const initState: SystemData = {
-  isLogin: true,
-  userInfo: {},
+const initState: SysData = {
+  isLogin: false,
 };
 
-function sysReducer(state = initState, action: BaseAction): SystemData {
+function sysReducer(state = initState, action: BaseAction): SysData {
   switch (action.type) {
     case actions.GET_USER_INFO: {
       return {
