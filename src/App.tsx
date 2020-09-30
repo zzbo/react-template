@@ -10,7 +10,7 @@ const App: FC = () => {
   const { getUserInfo } = actions;
   const dispatch = useDispatch();
   const sysData = useTypedSelector((state) => state.sysData);
-  console.log('sysData');
+  console.log('sysData', sysData);
 
   return (
     <div className="App">
